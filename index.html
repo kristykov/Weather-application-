@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="selected-city" id="selected-city">
+            <!-- <h1>16°</h1> -->
+            <div class="city-date">
+                <h2>London</h2>
+                <h3>06:09 - Monday, 9 Sep '21</h3>
+            </div>
+            <div class="weather-item__rainy">
+                <i class="fas fa-cloud-showers-heavy" aria-hidden="true"></i>
+                <h3>Rainy</h3>
+            </div>
+
+        </div>
+    </div>
+    <div class="background"></div>
+    <div class="nav nav--show">
+        <form class="flex" id="submit">
+            <input type="text" id="search" placeholder="Another location" autocomplete="off">
+            <button class="search-btn" id="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <ul class="nav__cities">
+            <li>Birmingham</li>
+            <li>Manchester</li>
+            <li>New York</li>
+        </ul>
+        <div class="weather__details">
+            <h3>Weather details</h3>
+            <div class="details">
+                <div class="details-item">
+                    <h4>Cloudy</h4>
+                    <span>80%</span>
+                </div>
+                <div class="details-item">
+                    <h4>Humidity</h4>
+                    <span>80%</span>
+                </div>
+                <div class="details-item">
+                    <h4>Pressure</h4>
+                    <span>80%</span>
+                </div>
+                <div class="details-item">
+                    <h4>Wind</h4>
+                    <span>80%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/629dd5243a.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
